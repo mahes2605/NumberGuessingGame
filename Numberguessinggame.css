@@ -1,0 +1,58 @@
+* {
+      background-color: bisque;
+      font-size: 30px;
+      text-align: center;
+    }
+    .head {
+      background-color: green;
+      font-size: 50px;
+      color: rgb(5, 1, 1);
+      padding: 20px;
+    }
+    .check {
+      height: 60px;
+      width: 100px;
+      border: 3px solid black;
+      background-color: white;
+      border-top-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+    }
+    .mainbody {
+      background-color: bisque;
+    }
+    .guess, .again {
+      height: 60px;
+      width: 120px;
+      font-size: 20px;
+      background-color: brown;
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+      margin: 10px;
+    }
+   
+    .headbody {
+      font-size: 20px;
+    }
+    .gamebody {
+      font-size: 24px;
+      color: black;
+      margin-top: 10px;
+    }
+    .score, .highscore {
+      font-size: 24px;
+      color: darkblue;
+    }
+    .division {
+      height: 60px;
+      width: 60px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: 32px;
+      margin: 10px auto;
+      border-radius: 10px;
+      border: 2px solid black;
+    }
